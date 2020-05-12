@@ -30,8 +30,8 @@ namespace DiaDaSemanaMelhorado
 
         private void btnVerificar_Click(object sender, EventArgs e)
         {
-            int dia;
-            dia = Convert.ToInt32(cmbDia.Text);
+            
+            var dia = Convert.ToInt32(cmbDia.Text);
             Console.WriteLine(dia);
 
             switch (dia)
